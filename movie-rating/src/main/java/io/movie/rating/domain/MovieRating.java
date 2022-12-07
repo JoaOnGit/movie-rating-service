@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class MovieRating {
 
+    private Integer userId;
     private Integer movieId;
     private Float stars;
 }
