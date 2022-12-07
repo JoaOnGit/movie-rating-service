@@ -1,4 +1,4 @@
-package io.movie.domain;
+package io.movie.info.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

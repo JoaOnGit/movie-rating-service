@@ -1,11 +1,9 @@
-package io.movie.service;
+package io.movie.info.service;
 
-import io.movie.domain.Movie;
-import org.springframework.context.annotation.Bean;
+import io.movie.info.domain.Movie;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 

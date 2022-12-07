@@ -1,8 +1,7 @@
-package io.movie.web;
+package io.movie.info.web;
 
-import io.movie.domain.Movie;
-import io.movie.service.MovieService;
-import lombok.AllArgsConstructor;
+import io.movie.info.domain.Movie;
+import io.movie.info.service.MovieService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("movie-catalog")
+@RequestMapping("movie-info")
 @RequiredArgsConstructor
 public class MovieController {
 
