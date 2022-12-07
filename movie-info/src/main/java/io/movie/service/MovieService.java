@@ -15,9 +15,9 @@ public class MovieService {
     ArrayList<Movie> movies = new ArrayList<>();
 
     public MovieService() {
-        movies.add(Movie.builder().movieId(100).movieName("Black Panther").build());
-        movies.add(Movie.builder().movieId(101).movieName("Black Adams").build());
-        movies.add(Movie.builder().movieId(102).movieName("Wednesday").build());
+        movies.add(Movie.builder().movieId(100).movieName("Black Panther").category("Action").build());
+        movies.add(Movie.builder().movieId(101).movieName("Black Adams").category("Action").build());
+        movies.add(Movie.builder().movieId(102).movieName("Wednesday").category("Horror").build());
     }
 
     public List<Movie> listOfMovies(Integer movieId){
