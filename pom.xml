@@ -11,6 +11,7 @@
   <modules>
     <module>movie-info</module>
     <module>movie-rating</module>
+    <module>movie-catalog</module>
   </modules>
 
   <name>movie-rating-service</name>
