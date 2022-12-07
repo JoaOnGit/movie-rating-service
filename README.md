@@ -9,7 +9,9 @@ It is built using [Spring Boot](http://projects.spring.io/spring-boot/), [Spring
 
 A simple api GET request with  userId [1, 3, 3] will return a movie rated based on user id provided in url.
 
-E.g: lhttp://ocalhost:8080/movie-catalog/v1/1
+### Sample Request & Response
+
+Request URL:  http://ocalhost:8080/movie-catalog/v1/1
 
 JSON Response:
 
