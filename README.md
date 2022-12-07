@@ -5,7 +5,7 @@ The application is a simple movie rating application. Its intended to demonstrat
 It is built using [Spring Boot](http://projects.spring.io/spring-boot/), [Spring Cloud](https://spring.io/projects/spring-cloud) and [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).
 
 
-##Basic Usage
+## Basic Usage
 
 A simple api GET request with  userId [1, 3, 3] will return a movie rated based on user id provided in url.
 
