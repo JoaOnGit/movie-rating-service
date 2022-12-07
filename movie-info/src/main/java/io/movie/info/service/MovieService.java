@@ -18,7 +18,10 @@ public class MovieService {
         movies.add(Movie.builder().movieId(102).movieName("Wednesday").category("Horror").build());
     }
 
-    public List<Movie> listOfMovies(Integer movieId){
-        return movies.stream().filter(m -> m.getMovieId().equals(movieId)).collect(Collectors.toList());
+    public Movie listOfMovies(Integer movieId){
+        return movies.stream()
+                .filter(m -> m.getMovieId().equals(movieId))
+                .findFirst()
+                .orElse(null);
     }
 }

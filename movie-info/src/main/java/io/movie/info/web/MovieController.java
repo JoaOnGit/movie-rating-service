@@ -18,7 +18,7 @@ public class MovieController {
     private final MovieService movieService;
 
     @GetMapping("/v1/{movieId}")
-    public List<Movie> moviecatalog(@PathVariable("movieId") Integer id){
+    public Movie moviecatalog(@PathVariable("movieId") Integer id){
         return movieService.listOfMovies(id);
     }
 
