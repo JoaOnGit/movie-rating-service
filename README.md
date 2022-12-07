@@ -1,4 +1,4 @@
-# Movie Rating App : A Microservice Demo APplication
+# Movie Rating App : A Microservice Demo Application (RestTemplate)
 
 The application is a simple movie rating application. Its intended to demonstrate a simple microservice design with basic communication - using RestTemplate
 
