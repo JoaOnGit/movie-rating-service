@@ -1,6 +1,7 @@
 package io.movie.rating.web;
 
 import io.movie.rating.domain.MovieRating;
+import io.movie.rating.domain.MovieRatingList;
 import io.movie.rating.service.MovieRatingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,8 +17,8 @@ import java.util.List;
 public class MovieRatingController {
     private final MovieRatingService movieRatingService;
 
-    @GetMapping(path = "/v1/{movieId}")
-    public List<MovieRating> findMovieRating(@PathVariable("movieId") Integer movieId){
-        return movieRatingService.findMovierating(movieId);
+    @GetMapping(path = "/v1/{userId}")
+    public MovieRatingList findMovieRating(@PathVariable("userId") Integer userId){
+        return movieRatingService.findMovieRating(userId);
     }
 }
